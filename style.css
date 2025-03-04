@@ -1,0 +1,169 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+body
+{
+    padding: 10px;
+}
+
+.navbar
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgb(6, 6, 6);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-radius: 550px;
+}
+
+.navbar .logo
+{
+    margin-left: -15px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img
+{
+    width: 80px;
+    min-width: 30px;
+}
+
+.navbar .logo h1
+{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.navbar ul
+{
+    display: flex;
+}
+.navbar ul li 
+{
+    list-style: none;
+    margin: 10px;
+}
+
+.navbar ul li a
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.navbar button
+{
+    padding: 5px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.hero .bg
+{
+    background-image: url('/assets/img/bg.jpg');
+    min-height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 50px;
+}
+.hero .bg h1
+{
+    color: aliceblue;
+    font-size:50px;
+}
+.hero .bg p
+{
+    color: aliceblue;
+    margin: 10px ;
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align: center;
+}
+.wrapper
+{
+
+    margin-top: 50px;
+}
+.wrapper .card
+{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    padding:10px 30px;
+    
+    
+}
+.wrapper .card h2
+{
+    text-align: center;
+}
+.wrapper .card .card-item
+{
+    border: solid 1px black;
+    padding: 25px;
+    flex-basis: auto;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+.wrapper .card img
+{
+    width: 250px;
+    min-height: 270px;
+}
+
+.row
+{
+    padding: 10px 50px;
+}
+.wrapper .row p
+{
+    padding-left: 30px;
+}
+
+.service .row
+{
+    display: flex;
+    flex-wrap:wrap; 
+   
+    justify-content: center;
+}
+.service .row h1
+{
+    font-size: 50px;
+}
+
+.service .row p
+{
+    padding:  0 50px;
+    text-align: center;
+}
+@media (max-width:767px)
+{
+    .navbar
+    {
+        flex-direction: column;
+    }
+    .navbar .logo
+    {
+        margin-right: 15px;
+    }
+}
